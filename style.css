@@ -1,0 +1,72 @@
+html, body {
+    margin:0;
+    max-width: 100%;
+    font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+    height: 70vh;
+}
+.w{
+    overflow:hidden;
+    max-width: 500px;
+    max-height: 700px;
+    margin: 0 auto;
+    max-height: fit-content;
+    background-color: rgb(115, 120, 131);
+    border-radius: 10px;
+}
+section div {
+    background: lightgray;
+    float: left;
+    height: 6vw;
+    margin: 1%;
+    width: 23%;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+section div:hover, #buttons button:hover {
+    background: cadetblue;
+}
+
+section {
+    margin:-1%;
+    padding:20px;
+}
+
+#display {
+    padding: 25px;
+    font-size: 30px;
+    background-color: cadetblue;
+    color: aliceblue;
+    margin: 20px;
+    border: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+#buttons{
+    width: 90%;
+    margin: 5%;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    margin: 20px;
+    overflow:auto;
+}
+
+#buttons button {
+    width: 100%;
+    margin: 15px;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: lightgray;
+}
+

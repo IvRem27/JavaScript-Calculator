@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+<div class="w">
+    <div id="display"></div>
+    <section>
+        <div onclick="setOperand(7)">7</div>
+        <div onclick="setOperand(8)">8</div>
+        <div onclick="setOperand(9)">9</div>
+        <div onclick="setOperation('/')">/</div>
+        <div onclick="setOperand(4)">4</div>
+        <div onclick="setOperand(5)">5</div>
+        <div onclick="setOperand(6)">6</div>
+        <div onclick="setOperation('*')">*</div>
+        <div onclick="setOperand(1)">1</div>
+        <div onclick="setOperand(2)">2</div>
+        <div onclick="setOperand(3)">3</div>
+        <div onclick="setOperation('-')">-</div>
+        <div onclick="setOperand(0)">0</div>
+        <div onclick="addDot()">.</div>
+        <div onclick="equals()">=</div>
+        <div onclick="setOperation('+')">+</div>
+    </section>
+    <div id="buttons">
+        <button id="clear" onclick="clean()">CLEAR</button>
+        <button id="back" onclick="back()">X</button>
+    </div>
+
+</div>
+
+</body>
+</html>
